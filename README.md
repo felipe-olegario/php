@@ -1,8 +1,8 @@
-This application utilize
-  -html
-  -css
-  -js
-  -php
+This application utilize: 
+  - html
+  - css
+  - js
+  - php
 
 To run this application:
   - docker-compose up --build

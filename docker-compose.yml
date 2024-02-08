@@ -2,6 +2,7 @@ version: '3.7'
 
 services:
   web:
+    image: felipe070700/docker-swarm-felipe:01
     build: .
     ports:
       - "8080:80"

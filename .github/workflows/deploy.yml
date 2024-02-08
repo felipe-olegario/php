@@ -27,5 +27,4 @@ jobs:
         docker push $DOCKER_USERNAME/docker-swarm-felipe:$GITHUB_SHA
         echo "$EC2_SSH_KEY" > ssh_key.pem
         chmod 600 ssh_key.pem
-        ssh -i ssh_key.pem ec2-user@ec2-100-26-137-168.compute-1.amazonaws.com "docker service update --image $DOCKER_USERNAME/docker-swarm-felipe:$GITHUB_SHA service-felipe_web
-"
+        ssh -i ssh_key.pem ec2-user@ec2-100-26-137-168.compute-1.amazonaws.com "docker service update --image $DOCKER_USERNAME/docker-swarm-felipe:$GITHUB_SHA service-felipe_web"

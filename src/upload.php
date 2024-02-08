@@ -30,7 +30,7 @@
 
     a:link,
     a:visited {
-        background-color: #f44336;
+        background-color: blue;
         color: white;
         padding: 14px 25px;
         text-align: center;
